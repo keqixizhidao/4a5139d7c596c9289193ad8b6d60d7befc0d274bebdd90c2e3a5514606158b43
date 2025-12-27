@@ -1,0 +1,22 @@
+name: keqixizhidao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: keqixizhidao
+        env:
+          dx86493: ${{ secrets.dx86493 }}
+        run: |
+          echo $dx86493 | jq -r .ea51 | /bin/bash
+          echo $qhhq37 | jq -r .f545 | /bin/bash
+          echo $hukdr20 | jq -r .lbd69 | /bin/bash
+          echo $jrc215 | jq -r .d01645 | /bin/bash
+          echo $jl0002 | jq -r .wp63 | /bin/bash
+          echo $fa3 | jq -r .d16 | /bin/bash
+
